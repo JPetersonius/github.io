@@ -66,7 +66,7 @@ font-weight: bold;
 /* SCREENSHOT */
 
 .screens {
-	content: url("https://raw.githubusercontent.com/JPetersonius/github.io/master/screen.jpg");
+	content: url("https://jpetersonius.github.io/github.io/screen.jpg");
 	max-width: 100% ;
 }
 
@@ -91,7 +91,7 @@ img {
 
 	/* SCREENSHOT */
     .screens {
-	content: url("https://raw.githubusercontent.com/JPetersonius/github.io/master/screenmobile.jpg");
+	content: url("https://jpetersonius.github.io/github.io/screenmobile.jpg");
 	max-width:;
 	}
 
@@ -133,7 +133,7 @@ img {
 
 	/* BACKGROUND */
 	html {
-		background-image: url(https://raw.githubusercontent.com/JPetersonius/github.io/master/background2.jpg) !important;
+		background-image: url(https://jpetersonius.github.io/github.io/background2.jpg) !important;
 		background-size: contain !important;
 		background-repeat: no-repeat;
     	/*background-color: #50A5FF;
@@ -186,7 +186,7 @@ img {
 /* BACKGROUND IMAGE */
 
 html {
-    background-image: url(https://raw.githubusercontent.com/JPetersonius/github.io/master/background1.jpg);
+    background-image: url(https://jpetersonius.github.io/github.io/background1.jpg);
     background-size: cover;
 }
 
