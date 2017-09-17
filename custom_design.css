@@ -215,6 +215,15 @@ html {
     font-weight: 300 !important;
 }
 
+.field.textarea {
+	-moz-border-radius: 5px;
+ 	border-radius: 5px;
+    padding: 10px;
+    font-size: 16;
+    font-family: 'Open Sans', Arial, sans-serif !important; 
+    font-weight: 300 !important;
+}
+
 /* DON'T SHOW RED STARS */
 
 form span.req {
