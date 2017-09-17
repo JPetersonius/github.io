@@ -113,7 +113,8 @@ img {
 
 	.leftpad2 {
 		padding-left: 0px;
-		padding-right: 200px;
+		padding-right: 0px;
+		margin-right: 40px;
 	}
 
 	.submit {
