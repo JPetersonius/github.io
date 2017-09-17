@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,600,700');
+
+/* - - - - - - - - - - - - - - - - - - - - -
+
+ Title : 
+ Author : 
+ URL : http://
+
+ Last Updated : 
+
+- - - - - - - - - - - - - - - - - - - - - */
+
+strong, b {
+font-weight: bold;
+}
+
+/* ALIGNMENT FORMATTING */
+
+.leftpad0 {
+	padding-left: 34px;
+	padding-right: 34px;
+}
+
+.leftpad1 {
+	padding-left: 34px;
+	padding-right: 34px;
+}
+
+.leftpad2 {
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+.submit {
+	margin-left: 34px;
+	margin-right: 34px;
+	margin-bottom: 20px;
+}
+
+/* DESCRIPTION FONT */
+
+.desc {
+	font-family: 'Open Sans', Arial, sans-serif !important; 
+    font-weight: 600 !important;
+}
+
+.choice__text {
+	font-family: 'Open Sans', Arial, sans-serif !important; 
+    font-weight: 300 !important;
+}
+
+.choice__text strong {
+	font-family: 'Open Sans', Arial, sans-serif !important; 
+    font-weight: 600 !important;
+}
+
+.wufoo legend.desc{
+        padding-bottom: 10px;
+}
+
+.wufoo label.choice {
+	line-height: 100% !important;
+	padding: 0 0 20px 0 !important;
+}
+
+/* SCREENSHOT */
+
+.screens {
+	content: url("https://jpetersonius.github.io/github.io/screen.jpg");
+	max-width: 100% ;
+}
+
+/* MOBILE FORMATTING */
+
+img {
+  width: auto ;
+  max-width: 100% ;
+  height: auto ;
+}
+
+@media (max-width: 700px) {
+
+	/* FONT SIZE */
+    .wufoo .info div, .wufoo legend.desc, .wufoo label.desc, .wufoo .confirm {
+        font-size: 16px;
+    }
+
+    .wufoo label.choice {
+        font-size: 16px;
+    }
+
+	/* SCREENSHOT */
+    .screens {
+	content: url("https://jpetersonius.github.io/github.io/screenmobile.jpg");
+	max-width:;
+	}
+
+	/* BUFFERS */
+	.leftpad0 {
+		padding-left: 4px;
+		padding-right: 4px;
+	}
+
+	.leftpad1 {
+		padding-left: 4px;
+		padding-right: 4px;
+	}
+
+	.leftpad2 {
+		padding-left: 4px;
+		padding-right: 4px;
+	}
+
+	.submit {
+		margin-left: 4px;
+		margin-right: 4px;
+		margin-bottom: 20px;
+	}
+
+	.wufoo .info h2 {
+		max-height: 0px;
+	}
+
+	/* BREAK */
+	.info br {
+    	display: none;
+	}
+
+	/* CONFIRMATION PAGE FONT SIZE */
+	.confirm h2 {
+    	font-size: 130%;
+	}
+
+	/* BACKGROUND */
+	html {
+		background-image: url(https://jpetersonius.github.io/github.io/background2.jpg) !important;
+		background-size: contain !important;
+		background-repeat: no-repeat;
+    	/*background-color: #50A5FF;
+    	background: linear-gradient(to right, #50A5FF 0%, #50A5FF 25%, #FFAD33 25%, #FFAD33 0%, #00865A 50%, #00865A 75%, #FC4945 75%, #FC4945 100%) !important; */
+	}
+
+	/* WHITE LETTER ROUNDING */
+
+	.ltr {
+		border-radius: 0px !important;
+	}
+
+	/* WHITE LETTER SLID DOWNWARD */
+
+	.noI {
+		padding-top: 95px !important;
+		padding-bottom: 0px !important;
+	}
+
+	.confirm h1 {
+		margin-top: 95px !important;
+	}
+}
+
+/* CONFIRMATION PAGE */
+
+.confirm h2 {
+    padding: 10px 0 10px 0;
+    font-family: 'Open Sans', Arial, sans-serif !important; 
+    font-weight: 300 !important;
+}
+
+/* FONTS */
+
+.opensans300 {
+    font-family: 'Open Sans', Arial, sans-serif !important; 
+    font-weight: 300;
+}
+
+.opensans600 {
+    font-family: 'Open Sans', Arial, sans-serif !important;
+    font-weight: 600 !important;
+}
+
+.opensans700 {
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-weight: 700;
+}
+
+/* BACKGROUND IMAGE */
+
+html {
+    background-image: url(https://jpetersonius.github.io/github.io/background1.jpg);
+    background-size: cover;
+}
+
+/* DON'T SHOW TOP LOGO */
+
+#logo a {
+    background-image: url('/images/themes/logos/none.png');
+    min-height: 0;
+    height: 0px;
+}
+
+/* RADIUS OF THE BIG LETTER */
+
+.ltr {
+	border-radius: 10px;
+}
+
+/* TEXT FIELDS */
+
+.field.text {
+	-moz-border-radius: 5px;
+ 	border-radius: 5px;
+    padding: 10px;
+    font-size: 16;
+    font-family: 'Open Sans', Arial, sans-serif !important; 
+    font-weight: 300 !important;
+}
+
+/* DON'T SHOW RED STARS */
+
+form span.req {
+	max-height: 0px !important;
+	display: none !important;
+}
