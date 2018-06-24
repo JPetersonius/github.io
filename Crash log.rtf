@@ -1,0 +1,589 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1639\cocoasubrtf100
+{\fonttbl\f0\fnil\fcharset0 Menlo-Bold;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+{\*\expandedcolortbl;;\csgenericrgb\c0\c0\c0;}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\deftab543
+\pard\tx543\pardeftab543\pardirnatural\partightenfactor0
+
+\f0\b\fs22 \cf2 \CocoaLigature0 objc[2529]: Class LDShortContact is implemented in both /private/var/containers/Bundle/Application/F216D9CE-0D77-4BFF-8153-5C1492AC2AD0/LivDay.app/Frameworks/CustomControls.framework/CustomControls (0x10170a588) and /var/containers/Bundle/Application/F216D9CE-0D77-4BFF-8153-5C1492AC2AD0/LivDay.app/LivDay (0x101225098). One of the two will be used. Which one is undefined.\
+2018-06-24 16:25:24.887564-0700 LivDay[2529:1402937] [branch.io] Branch.m(192) Log: Branch version 0.25.0 started at 2018-06-24 23:25:24 +0000.\
+2018-06-24 16:25:24.895625-0700 LivDay[2529:1402940] [Firebase/Analytics][I-ACS023007] Firebase Analytics v.3900000 started\
+2018-06-24 16:25:24.985 LivDay[2529] <Notice> [Firebase/Analytics][I-ACS023007] Firebase Analytics v.3900000 started\
+2018-06-24 16:25:24.986558-0700 LivDay[2529:1402940] [Firebase/Analytics][I-ACS023008] To enable debug logging set the following application argument: -FIRAnalyticsDebugEnabled (see http://goo.gl/RfcP7r)\
+2018-06-24 16:25:24.986 LivDay[2529] <Notice> [Firebase/Analytics][I-ACS023008] To enable debug logging set the following application argument: -FIRAnalyticsDebugEnabled (see http://goo.gl/RfcP7r)\
+2018-06-24 16:25:25.008259-0700 LivDay[2529:1402939] [MC] System group container for systemgroup.com.apple.configurationprofiles path is /private/var/containers/Shared/SystemGroup/systemgroup.com.apple.configurationprofiles\
+2018-06-24 16:25:25.008560-0700 LivDay[2529:1402939] [MC] Reading from public effective user settings.\
+=================================================================\
+Main Thread Checker: UI API called on a background thread: -[UIApplication delegate]\
+PID: 2529, TID: 1402934, Thread name: (none), Queue name: FIRAnalyticsQueue, QoS: 9\
+Backtrace:\
+4   LivDay                              0x00000001010eaf44 __38+[FIRAnalytics createAppDelegateProxy]_block_invoke + 56\
+5   libdispatch.dylib                   0x000000010171919c _dispatch_client_callout + 16\
+6   libdispatch.dylib                   0x0000000101719eb0 dispatch_once_f + 120\
+7   LivDay                              0x00000001010e95dc __47+[FIRAnalytics startWithConfiguration:options:]_block_invoke_2 + 104\
+8   libdispatch.dylib                   0x00000001017191dc _dispatch_call_block_and_release + 24\
+9   libdispatch.dylib                   0x000000010171919c _dispatch_client_callout + 16\
+10  libdispatch.dylib                   0x0000000101727dfc _dispatch_queue_serial_drain + 768\
+11  libdispatch.dylib                   0x000000010171c6ac _dispatch_queue_invoke + 328\
+12  libdispatch.dylib                   0x0000000101728d54 _dispatch_root_queue_drain_deferred_wlh + 352\
+13  libdispatch.dylib                   0x000000010172fe38 _dispatch_workloop_worker_thread + 676\
+14  libsystem_pthread.dylib             0x0000000183333e70 _pthread_wqthread + 860\
+15  libsystem_pthread.dylib             0x0000000183333b08 start_wqthread + 4\
+2018-06-24 16:25:25.040776-0700 LivDay[2529:1402934] [reports] Main Thread Checker: UI API called on a background thread: -[UIApplication delegate]\
+PID: 2529, TID: 1402934, Thread name: (none), Queue name: FIRAnalyticsQueue, QoS: 9\
+Backtrace:\
+4   LivDay                              0x00000001010eaf44 __38+[FIRAnalytics createAppDelegateProxy]_block_invoke + 56\
+5   libdispatch.dylib                   0x000000010171919c _dispatch_client_callout + 16\
+6   libdispatch.dylib                   0x0000000101719eb0 dispatch_once_f + 120\
+7   LivDay                              0x00000001010e95dc __47+[FIRAnalytics startWithConfiguration:options:]_block_invoke_2 + 104\
+8   libdispatch.dylib                   0x00000001017191dc _dispatch_call_block_and_release + 24\
+9   libdispatch.dylib                   0x000000010171919c _dispatch_client_callout + 16\
+10  libdispatch.dylib                   0x0000000101727dfc _dispatch_queue_serial_drain + 768\
+11  libdispatch.dylib                   0x000000010171c6ac _dispatch_queue_invoke + 328\
+12  libdispatch.dylib                   0x0000000101728d54 _dispatch_root_queue_drain_deferred_wlh + 352\
+13  libdispatch.dylib                   0x000000010172fe38 _dispatch_workloop_worker_thread + 676\
+14  libsystem_pthread.dylib             0x0000000183333e70 _pthread_wqthread + 860\
+15  libsystem_pthread.dylib             0x0000000183333b08 start_wqthread + 4\
+2018-06-24 16:25:27.095764-0700 LivDay[2529:1402946] VERBOSE: GoogleAnalytics 3.17 -[GAIRequestBuilder requestPostUrl:payload:compression:] (GAIRequestBuilder.m:167): building URLRequest for https://ssl.google-analytics.com/batch\
+2018-06-24 16:25:27.097124-0700 LivDay[2529:1402946] VERBOSE: GoogleAnalytics 3.17 -[GAIBatchingDispatcher dispatchWithCompletionHandler:] (GAIBatchingDispatcher.m:633): Sending hit(s) POST: https://ssl.google-analytics.com/batch\
+2018-06-24 16:25:27.103170-0700 LivDay[2529:1402754] Found cookies: (\
+    "<NSHTTPCookie\\n\\tversion:0\\n\\tname:livday\\n\\tvalue:i0eb5dq7k5l0qc6mp1maen94d0\\n\\texpiresDate:'(null)'\\n\\tcreated:'2001-01-01 00:00:01 +0000'\\n\\tsessionOnly:TRUE\\n\\tdomain:www.nudgetext.com\\n\\tpartition:none\\n\\tpath:/\\n\\tisSecure:FALSE\\n path:\\"/\\" isSecure:FALSE>",\
+    "<NSHTTPCookie\\n\\tversion:0\\n\\tname:sfRemember\\n\\tvalue:niiacubv0u8084ww80cw4c8w8okkgck\\n\\texpiresDate:'2019-06-19 22:19:35 +0000'\\n\\tcreated:'2001-01-01 00:00:01 +0000'\\n\\tsessionOnly:FALSE\\n\\tdomain:www.nudgetext.com\\n\\tpartition:none\\n\\tpath:/\\n\\tisSecure:FALSE\\n path:\\"/\\" isSecure:FALSE>"\
+)\
+2018-06-24 16:25:27.103977-0700 LivDay[2529:1402754] Found cookies: (\
+    "<NSHTTPCookie\\n\\tversion:0\\n\\tname:livday\\n\\tvalue:i0eb5dq7k5l0qc6mp1maen94d0\\n\\texpiresDate:'(null)'\\n\\tcreated:'2001-01-01 00:00:01 +0000'\\n\\tsessionOnly:TRUE\\n\\tdomain:www.nudgetext.com\\n\\tpartition:none\\n\\tpath:/\\n\\tisSecure:FALSE\\n path:\\"/\\" isSecure:FALSE>",\
+    "<NSHTTPCookie\\n\\tversion:0\\n\\tname:sfRemember\\n\\tvalue:niiacubv0u8084ww80cw4c8w8okkgck\\n\\texpiresDate:'2019-06-19 22:19:35 +0000'\\n\\tcreated:'2001-01-01 00:00:01 +0000'\\n\\tsessionOnly:FALSE\\n\\tdomain:www.nudgetext.com\\n\\tpartition:none\\n\\tpath:/\\n\\tisSecure:FALSE\\n path:\\"/\\" isSecure:FALSE>"\
+)\
+2018-06-24 16:25:27.195120-0700 LivDay[2529:1402947] [Firebase/Analytics][I-ACS003007] Successfully created Firebase Analytics App Delegate Proxy automatically. To disable the proxy, set the flag FirebaseAppDelegateProxyEnabled to NO in the Info.plist\
+2018-06-24 16:25:27.196 LivDay[2529] <Notice> [Firebase/Analytics][I-ACS003007] Successfully created Firebase Analytics App Delegate Proxy automatically. To disable the proxy, set the flag FirebaseAppDelegateProxyEnabled to NO in the Info.plist\
+2018-06-24 16:25:27.228455-0700 LivDay[2529:1402946] VERBOSE: GoogleAnalytics 3.17 -[GAIBatchingDispatcher persist:] (GAIBatchingDispatcher.m:518): Saved hit: \{\
+    parameters =     \{\
+        "&_crc" = 0;\
+        "&_s" = 45;\
+        "&_u" = ".neoK9L";\
+        "&_v" = "mi3.1.7";\
+        "&a" = 1951980858;\
+        "&aid" = "com.JohnPeterson.002";\
+        "&an" = livday;\
+        "&av" = "4.06";\
+        "&cd" = Quote;\
+        "&cid" = "35843ae1-4246-4d84-ac90-548d9ee754f3";\
+        "&dm" = "iPhone9,4";\
+        "&ds" = app;\
+        "&sr" = 1080x1920;\
+        "&t" = screenview;\
+        "&tid" = "UA-31629363-3";\
+        "&ul" = "en-us";\
+        "&v" = 1;\
+        "&z" = 3934172607455022371;\
+        gaiVersion = "3.17";\
+    \};\
+    timestamp = "2018-06-24 23:25:27 +0000";\
+\}\
+2018-06-24 16:25:27.233049-0700 LivDay[2529:1402946] VERBOSE: GoogleAnalytics 3.17 __70-[GAIBatchingDispatcher checkIAdCampaignAttributionWithHitParameters:]_block_invoke (GAIBatchingDispatcher.m:750): iAd campaign tracking disabled because the iAd framework is not linked. See http://goo.gl/426NGa for instructions.\
+=================================================================\
+Main Thread Checker: UI API called on a background thread: -[UIApplication applicationState]\
+PID: 2529, TID: 1402940, Thread name: (none), Queue name: com.google.fira.worker, QoS: 9\
+Backtrace:\
+4   LivDay                              0x00000001010e8fa8 FIRAIsAppActive + 56\
+5   LivDay                              0x00000001010e8454 -[FIRASessionReporter shouldStartNewSession] + 24\
+6   LivDay                              0x00000001010e7ff8 -[FIRASessionReporter initWithPersistedConfig:] + 284\
+7   LivDay                              0x00000001010d3ce0 __48-[FIRAMeasurement startMeasurementOnWorkerQueue]_block_invoke + 1828\
+8   libdispatch.dylib                   0x000000010171919c _dispatch_client_callout + 16\
+9   libdispatch.dylib                   0x0000000101719eb0 dispatch_once_f + 120\
+10  LivDay                              0x00000001010d35a0 -[FIRAMeasurement startMeasurementOnWorkerQueue] + 268\
+11  LivDay                              0x00000001010d336c -[FIRAMeasurement setEnabledOnWorkerQueue:] + 124\
+12  LivDay                              0x00000001010e7c70 __52-[FIRAScheduler scheduleOnWorkerQueueBlockID:block:]_block_invoke + 44\
+13  libdispatch.dylib                   0x00000001017191dc _dispatch_call_block_and_release + 24\
+14  libdispatch.dylib                   0x000000010171919c _dispatch_client_callout + 16\
+15  libdispatch.dylib                   0x0000000101727dfc _dispatch_queue_serial_drain + 768\
+16  libdispatch.dylib                   0x000000010171c6ac _dispatch_queue_invoke + 328\
+17  libdispatch.dylib                   0x0000000101728d54 _dispatch_root_queue_drain_deferred_wlh + 352\
+18  libdispatch.dylib                   0x000000010172fe38 _dispatch_workloop_worker_thread + 676\
+19  libsystem_pthread.dylib             0x0000000183333e70 _pthread_wqthread + 860\
+20  libsystem_pthread.dylib             0x0000000183333b08 start_wqthread + 4\
+2018-06-24 16:25:27.465008-0700 LivDay[2529:1402940] [reports] Main Thread Checker: UI API called on a background thread: -[UIApplication applicationState]\
+PID: 2529, TID: 1402940, Thread name: (none), Queue name: com.google.fira.worker, QoS: 9\
+Backtrace:\
+4   LivDay                              0x00000001010e8fa8 FIRAIsAppActive + 56\
+5   LivDay                              0x00000001010e8454 -[FIRASessionReporter shouldStartNewSession] + 24\
+6   LivDay                              0x00000001010e7ff8 -[FIRASessionReporter initWithPersistedConfig:] + 284\
+7   LivDay                              0x00000001010d3ce0 __48-[FIRAMeasurement startMeasurementOnWorkerQueue]_block_invoke + 1828\
+8   libdispatch.dylib                   0x000000010171919c _dispatch_client_callout + 16\
+9   libdispatch.dylib                   0x0000000101719eb0 dispatch_once_f + 120\
+10  LivDay                              0x00000001010d35a0 -[FIRAMeasurement startMeasurementOnWorkerQueue] + 268\
+11  LivDay                              0x00000001010d336c -[FIRAMeasurement setEnabledOnWorkerQueue:] + 124\
+12  LivDay                              0x00000001010e7c70 __52-[FIRAScheduler scheduleOnWorkerQueueBlockID:block:]_block_invoke + 44\
+13  libdispatch.dylib                   0x00000001017191dc _dispatch_call_block_and_release + 24\
+14  libdispatch.dylib                   0x000000010171919c _dispatch_client_callout + 16\
+15  libdispatch.dylib                   0x0000000101727dfc _dispatch_queue_serial_drain + 768\
+16  libdispatch.dylib                   0x000000010171c6ac _dispatch_queue_invoke + 328\
+17  libdispatch.dylib                   0x0000000101728d54 _dispatch_root_queue_drain_deferred_wlh + 352\
+18  libdispatch.dylib                   0x000000010172fe38 _dispatch_workloop_worker_thread + 676\
+19  libsystem_pthread.dylib             0x0000000183333e70 _pthread_wqthread + 860\
+20  libsystem_pthread.dylib             0x0000000183333b08 start_wqthread + 4\
+2018-06-24 16:25:28.125861-0700 LivDay[2529:1402937] [Firebase/Analytics][I-ACS032003] iAd framework is not linked. Search Ad Attribution Reporter is disabled.\
+2018-06-24 16:25:28.125 LivDay[2529] <Warning> [Firebase/Analytics][I-ACS032003] iAd framework is not linked. Search Ad Attribution Reporter is disabled.\
+2018-06-24 16:25:28.126538-0700 LivDay[2529:1402940] [Firebase/Analytics][I-ACS023012] Firebase Analytics enabled\
+2018-06-24 16:25:28.126 LivDay[2529] <Notice> [Firebase/Analytics][I-ACS023012] Firebase Analytics enabled\
+2018-06-24 16:25:28.329523-0700 LivDay[2529:1402754] INFO: GoogleAnalytics 3.17 -[GAIBatchingDispatcher didSendHits:response:data:error:] (GAIBatchingDispatcher.m:226): Hit(s) dispatched: HTTP status 200\
+2018-06-24 16:25:28.412436-0700 LivDay[2529:1402754] INFO: GoogleAnalytics 3.17 -[GAIReachabilityChecker reachabilityFlagsChanged:] (GAIReachabilityChecker.m:161): Reachability flags update: 0X000002\
+2018-06-24 16:25:28.413686-0700 LivDay[2529:1402754] JP parameters: \{\
+    "+clicked_branch_link" = 0;\
+    "+is_first_session" = 0;\
+\}\
+2018-06-24 16:25:28.413756-0700 LivDay[2529:1402754] JP error: (null)\
+2018-06-24 16:25:28.413865-0700 LivDay[2529:1402754] JP parameters: \{\
+    "+clicked_branch_link" = 0;\
+    "+is_first_session" = 0;\
+\}\
+2018-06-24 16:25:28.413924-0700 LivDay[2529:1402754] JP URL: (null)\
+2018-06-24 16:25:28.421235-0700 LivDay[2529:1402946] INFO: GoogleAnalytics 3.17 -[GAIBatchingDispatcher deleteHits:] (GAIBatchingDispatcher.m:530): hit(s) Successfully deleted\
+2018-06-24 16:25:28.514563-0700 LivDay[2529:1402946] INFO: GoogleAnalytics 3.17 -[GAIBatchingDispatcher didSendHits:] (GAIBatchingDispatcher.m:237): 2 hit(s) sent\
+2018-06-24 16:25:28.515783-0700 LivDay[2529:1402946] VERBOSE: GoogleAnalytics 3.17 -[GAIRequestBuilder requestGetUrl:payload:] (GAIRequestBuilder.m:195): building URLRequest for https://ssl.google-analytics.com/collect\
+2018-06-24 16:25:28.516225-0700 LivDay[2529:1402946] VERBOSE: GoogleAnalytics 3.17 -[GAIBatchingDispatcher dispatchWithCompletionHandler:] (GAIBatchingDispatcher.m:633): Sending hit(s) GET: https://ssl.google-analytics.com/collect?av=4.06&cid=35843ae1-4246-4d84-ac90-548d9ee754f3&tid=UA-31629363-3&a=1951980858&dm=iPhone9%2C4&cd=Quote&t=screenview&aid=com.JohnPeterson.002&ul=en-us&_u=.neoK9L&ds=app&sr=1080x1920&v=1&_s=45&_crc=0&an=livday&_v=mi3.1.7&ht=1529882727220&qt=1295&z=3934172607455022371\
+2018-06-24 16:25:29.366635-0700 LivDay[2529:1402754] INFO: GoogleAnalytics 3.17 -[GAIBatchingDispatcher didSendHits:response:data:error:] (GAIBatchingDispatcher.m:226): Hit(s) dispatched: HTTP status -1\
+2018-06-24 16:25:29.379079-0700 LivDay[2529:1402946] INFO: GoogleAnalytics 3.17 -[GAIBatchingDispatcher deleteHits:] (GAIBatchingDispatcher.m:530): hit(s) Successfully deleted\
+2018-06-24 16:25:29.413725-0700 LivDay[2529:1402946] INFO: GoogleAnalytics 3.17 -[GAIBatchingDispatcher didSendHits:] (GAIBatchingDispatcher.m:237): 1 hit(s) sent\
+2018-06-24 16:25:29.460515-0700 LivDay[2529:1402947] TIC Read Status [1:0x0]: 1:57\
+2018-06-24 16:25:29.460594-0700 LivDay[2529:1402947] TIC Read Status [1:0x0]: 1:57\
+2018-06-24 16:25:29.493699-0700 LivDay[2529:1402986] TIC Read Status [6:0x0]: 1:57\
+2018-06-24 16:25:29.493774-0700 LivDay[2529:1402986] TIC Read Status [6:0x0]: 1:57\
+2018-06-24 16:25:29.627476-0700 LivDay[2529:1402940] TIC Read Status [7:0x0]: 1:57\
+2018-06-24 16:25:29.627582-0700 LivDay[2529:1402940] TIC Read Status [7:0x0]: 1:57\
+2018-06-24 16:25:29.660502-0700 LivDay[2529:1402940] TIC Read Status [8:0x0]: 1:57\
+2018-06-24 16:25:29.660591-0700 LivDay[2529:1402940] TIC Read Status [8:0x0]: 1:57\
+2018-06-24 16:25:31.069077-0700 LivDay[2529:1402754] Downloading started\
+2018-06-24 16:25:31.108977-0700 LivDay[2529:1402754] test\
+2018-06-24 16:25:31.980947-0700 LivDay[2529:1402940] TIC Read Status [9:0x0]: 1:57\
+2018-06-24 16:25:31.981247-0700 LivDay[2529:1402940] TIC Read Status [9:0x0]: 1:57\
+2018-06-24 16:25:32.180140-0700 LivDay[2529:1402984] TIC Read Status [10:0x0]: 1:57\
+2018-06-24 16:25:32.180201-0700 LivDay[2529:1402984] TIC Read Status [10:0x0]: 1:57\
+2018-06-24 16:25:33.541879-0700 LivDay[2529:1402754] Downloading completed, parsing started\
+2018-06-24 16:25:33.557677-0700 LivDay[2529:1402754] Parsing completed\
+2018-06-24 16:25:33.581910-0700 LivDay[2529:1402754] test\
+2018-06-24 16:25:33.685125-0700 LivDay[2529:1402754] The behavior of the UICollectionViewFlowLayout is not defined because:\
+2018-06-24 16:25:33.685181-0700 LivDay[2529:1402754] the item width must be less than the width of the UICollectionView minus the section insets left and right values, minus the content insets left and right values.\
+2018-06-24 16:25:33.685763-0700 LivDay[2529:1402754] The relevant UICollectionViewFlowLayout instance is <UICollectionViewFlowLayout: 0x101a6ef60>, and it is attached to <UICollectionView: 0x1028d1000; frame = (0 21; 39 39); clipsToBounds = YES; autoresize = RM+BM; gestureRecognizers = <NSArray: 0x1c4250ef0>; layer = <CALayer: 0x1c423fa20>; contentOffset: \{0, 0\}; contentSize: \{252.5, 0\}; adjustedContentInset: \{0, 0, 0, 0\}> collection view layout: <UICollectionViewFlowLayout: 0x101a6ef60>.\
+2018-06-24 16:25:33.685793-0700 LivDay[2529:1402754] Make a symbolic breakpoint at UICollectionViewFlowLayoutBreakForInvalidSizes to catch this in the debugger.\
+2018-06-24 16:25:33.713110-0700 LivDay[2529:1402754] Downloading started\
+2018-06-24 16:25:33.718375-0700 LivDay[2529:1402754] [LayoutConstraints] Unable to simultaneously satisfy constraints.\
+	Probably at least one of the constraints in the following list is one you don't want. \
+	Try this: \
+		(1) look at each constraint and try to figure out which you don't expect; \
+		(2) find the code that added the unwanted constraint or constraints and fix it. \
+(\
+    "<NSLayoutConstraint:0x1c028e060 UIImageView:0x101894cd0.height == 100   (active)>",\
+    "<NSLayoutConstraint:0x1c408e420 V:[UIImageView:0x101894cd0]-(15)-|   (active, names: '|':UITableViewCellContentView:0x101851300 )>",\
+    "<NSLayoutConstraint:0x1c028f5f0 V:|-(15)-[UIImageView:0x101894cd0]   (active, names: '|':UITableViewCellContentView:0x101851300 )>",\
+    "<NSLayoutConstraint:0x1c40924d0 'UIView-Encapsulated-Layout-Height' UITableViewCellContentView:0x101851300.height == 130   (active)>"\
+)\
+\
+Will attempt to recover by breaking constraint \
+<NSLayoutConstraint:0x1c028e060 UIImageView:0x101894cd0.height == 100   (active)>\
+\
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.\
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.\
+2018-06-24 16:25:33.719364-0700 LivDay[2529:1402754] [LayoutConstraints] Unable to simultaneously satisfy constraints.\
+	Probably at least one of the constraints in the following list is one you don't want. \
+	Try this: \
+		(1) look at each constraint and try to figure out which you don't expect; \
+		(2) find the code that added the unwanted constraint or constraints and fix it. \
+(\
+    "<NSLayoutConstraint:0x1c40927a0 UIImageView:0x101a54440.height == 100   (active)>",\
+    "<NSLayoutConstraint:0x1c4093600 V:[UIImageView:0x101a54440]-(15)-|   (active, names: '|':UITableViewCellContentView:0x101a53de0 )>",\
+    "<NSLayoutConstraint:0x1c4093650 V:|-(15)-[UIImageView:0x101a54440]   (active, names: '|':UITableViewCellContentView:0x101a53de0 )>",\
+    "<NSLayoutConstraint:0x1c0290630 'UIView-Encapsulated-Layout-Height' UITableViewCellContentView:0x101a53de0.height == 130   (active)>"\
+)\
+\
+Will attempt to recover by breaking constraint \
+<NSLayoutConstraint:0x1c40927a0 UIImageView:0x101a54440.height == 100   (active)>\
+\
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.\
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.\
+2018-06-24 16:25:33.720370-0700 LivDay[2529:1402754] [LayoutConstraints] Unable to simultaneously satisfy constraints.\
+	Probably at least one of the constraints in the following list is one you don't want. \
+	Try this: \
+		(1) look at each constraint and try to figure out which you don't expect; \
+		(2) find the code that added the unwanted constraint or constraints and fix it. \
+(\
+    "<NSLayoutConstraint:0x1c4094820 UIImageView:0x101a59ab0.height == 100   (active)>",\
+    "<NSLayoutConstraint:0x1c4095720 V:[UIImageView:0x101a59ab0]-(15)-|   (active, names: '|':UITableViewCellContentView:0x101a57bd0 )>",\
+    "<NSLayoutConstraint:0x1c4095770 V:|-(15)-[UIImageView:0x101a59ab0]   (active, names: '|':UITableViewCellContentView:0x101a57bd0 )>",\
+    "<NSLayoutConstraint:0x1c40963a0 'UIView-Encapsulated-Layout-Height' UITableViewCellContentView:0x101a57bd0.height == 130   (active)>"\
+)\
+\
+Will attempt to recover by breaking constraint \
+<NSLayoutConstraint:0x1c4094820 UIImageView:0x101a59ab0.height == 100   (active)>\
+\
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.\
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.\
+2018-06-24 16:25:33.721377-0700 LivDay[2529:1402754] [LayoutConstraints] Unable to simultaneously satisfy constraints.\
+	Probably at least one of the constraints in the following list is one you don't want. \
+	Try this: \
+		(1) look at each constraint and try to figure out which you don't expect; \
+		(2) find the code that added the unwanted constraint or constraints and fix it. \
+(\
+    "<NSLayoutConstraint:0x1c4096580 UIImageView:0x101a60980.height == 100   (active)>",\
+    "<NSLayoutConstraint:0x1c40973e0 V:[UIImageView:0x101a60980]-(15)-|   (active, names: '|':UITableViewCellContentView:0x101a5fd70 )>",\
+    "<NSLayoutConstraint:0x1c4097430 V:|-(15)-[UIImageView:0x101a60980]   (active, names: '|':UITableViewCellContentView:0x101a5fd70 )>",\
+    "<NSLayoutConstraint:0x1c4097ed0 'UIView-Encapsulated-Layout-Height' UITableViewCellContentView:0x101a5fd70.height == 130   (active)>"\
+)\
+\
+Will attempt to recover by breaking constraint \
+<NSLayoutConstraint:0x1c4096580 UIImageView:0x101a60980.height == 100   (active)>\
+\
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.\
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.\
+2018-06-24 16:25:33.722318-0700 LivDay[2529:1402754] [LayoutConstraints] Unable to simultaneously satisfy constraints.\
+	Probably at least one of the constraints in the following list is one you don't want. \
+	Try this: \
+		(1) look at each constraint and try to figure out which you don't expect; \
+		(2) find the code that added the unwanted constraint or constraints and fix it. \
+(\
+    "<NSLayoutConstraint:0x1c02908b0 UIImageView:0x10189d470.height == 100   (active)>",\
+    "<NSLayoutConstraint:0x1c02916c0 V:[UIImageView:0x10189d470]-(15)-|   (active, names: '|':UITableViewCellContentView:0x10189d270 )>",\
+    "<NSLayoutConstraint:0x1c0291710 V:|-(15)-[UIImageView:0x10189d470]   (active, names: '|':UITableViewCellContentView:0x10189d270 )>",\
+    "<NSLayoutConstraint:0x1c40981a0 'UIView-Encapsulated-Layout-Height' UITableViewCellContentView:0x10189d270.height == 130   (active)>"\
+)\
+\
+Will attempt to recover by breaking constraint \
+<NSLayoutConstraint:0x1c02908b0 UIImageView:0x10189d470.height == 100   (active)>\
+\
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.\
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.\
+2018-06-24 16:25:33.730589-0700 LivDay[2529:1402754] [Assert] negative or zero item sizes are not supported in the flow layout\
+2018-06-24 16:25:33.730686-0700 LivDay[2529:1402754] [Assert] negative or zero item sizes are not supported in the flow layout\
+2018-06-24 16:25:33.730807-0700 LivDay[2529:1402754] [Assert] negative or zero item sizes are not supported in the flow layout\
+2018-06-24 16:25:33.730971-0700 LivDay[2529:1402754] [Assert] negative or zero item sizes are not supported in the flow layout\
+2018-06-24 16:25:33.731050-0700 LivDay[2529:1402754] [Assert] negative or zero item sizes are not supported in the flow layout\
+2018-06-24 16:25:33.731298-0700 LivDay[2529:1402754] [Assert] negative or zero item sizes are not supported in the flow layout\
+2018-06-24 16:25:33.731391-0700 LivDay[2529:1402754] [Assert] negative or zero item sizes are not supported in the flow layout\
+2018-06-24 16:25:33.731446-0700 LivDay[2529:1402754] [Assert] negative or zero item sizes are not supported in the flow layout\
+2018-06-24 16:25:34.938218-0700 LivDay[2529:1402754] Downloading completed, parsing started\
+2018-06-24 16:25:34.946316-0700 LivDay[2529:1402754] Parsing completed\
+2018-06-24 16:25:34.953911-0700 LivDay[2529:1402754] [LayoutConstraints] Unable to simultaneously satisfy constraints.\
+	Probably at least one of the constraints in the following list is one you don't want. \
+	Try this: \
+		(1) look at each constraint and try to figure out which you don't expect; \
+		(2) find the code that added the unwanted constraint or constraints and fix it. \
+(\
+    "<NSLayoutConstraint:0x1c028e060 UIImageView:0x101894cd0.height == 100   (active)>",\
+    "<NSLayoutConstraint:0x1c408e420 V:[UIImageView:0x101894cd0]-(15)-|   (active, names: '|':UITableViewCellContentView:0x101851300 )>",\
+    "<NSLayoutConstraint:0x1c028f5f0 V:|-(15)-[UIImageView:0x101894cd0]   (active, names: '|':UITableViewCellContentView:0x101851300 )>",\
+    "<NSLayoutConstraint:0x1c40924d0 'UIView-Encapsulated-Layout-Height' UITableViewCellContentView:0x101851300.height == 130   (active)>"\
+)\
+\
+Will attempt to recover by breaking constraint \
+<NSLayoutConstraint:0x1c028e060 UIImageView:0x101894cd0.height == 100   (active)>\
+\
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.\
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.\
+2018-06-24 16:25:34.960697-0700 LivDay[2529:1402754] [LayoutConstraints] Unable to simultaneously satisfy constraints.\
+	Probably at least one of the constraints in the following list is one you don't want. \
+	Try this: \
+		(1) look at each constraint and try to figure out which you don't expect; \
+		(2) find the code that added the unwanted constraint or constraints and fix it. \
+(\
+    "<NSLayoutConstraint:0x1c40927a0 UIImageView:0x101a54440.height == 100   (active)>",\
+    "<NSLayoutConstraint:0x1c4093600 V:[UIImageView:0x101a54440]-(15)-|   (active, names: '|':UITableViewCellContentView:0x101a53de0 )>",\
+    "<NSLayoutConstraint:0x1c4093650 V:|-(15)-[UIImageView:0x101a54440]   (active, names: '|':UITableViewCellContentView:0x101a53de0 )>",\
+    "<NSLayoutConstraint:0x1c0290630 'UIView-Encapsulated-Layout-Height' UITableViewCellContentView:0x101a53de0.height == 130   (active)>"\
+)\
+\
+Will attempt to recover by breaking constraint \
+<NSLayoutConstraint:0x1c40927a0 UIImageView:0x101a54440.height == 100   (active)>\
+\
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.\
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.\
+2018-06-24 16:25:34.965118-0700 LivDay[2529:1402754] [LayoutConstraints] Unable to simultaneously satisfy constraints.\
+	Probably at least one of the constraints in the following list is one you don't want. \
+	Try this: \
+		(1) look at each constraint and try to figure out which you don't expect; \
+		(2) find the code that added the unwanted constraint or constraints and fix it. \
+(\
+    "<NSLayoutConstraint:0x1c4094820 UIImageView:0x101a59ab0.height == 100   (active)>",\
+    "<NSLayoutConstraint:0x1c4095720 V:[UIImageView:0x101a59ab0]-(15)-|   (active, names: '|':UITableViewCellContentView:0x101a57bd0 )>",\
+    "<NSLayoutConstraint:0x1c4095770 V:|-(15)-[UIImageView:0x101a59ab0]   (active, names: '|':UITableViewCellContentView:0x101a57bd0 )>",\
+    "<NSLayoutConstraint:0x1c40963a0 'UIView-Encapsulated-Layout-Height' UITableViewCellContentView:0x101a57bd0.height == 130   (active)>"\
+)\
+\
+Will attempt to recover by breaking constraint \
+<NSLayoutConstraint:0x1c4094820 UIImageView:0x101a59ab0.height == 100   (active)>\
+\
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.\
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.\
+2018-06-24 16:25:34.970368-0700 LivDay[2529:1402754] [LayoutConstraints] Unable to simultaneously satisfy constraints.\
+	Probably at least one of the constraints in the following list is one you don't want. \
+	Try this: \
+		(1) look at each constraint and try to figure out which you don't expect; \
+		(2) find the code that added the unwanted constraint or constraints and fix it. \
+(\
+    "<NSLayoutConstraint:0x1c4096580 UIImageView:0x101a60980.height == 100   (active)>",\
+    "<NSLayoutConstraint:0x1c40973e0 V:[UIImageView:0x101a60980]-(15)-|   (active, names: '|':UITableViewCellContentView:0x101a5fd70 )>",\
+    "<NSLayoutConstraint:0x1c4097430 V:|-(15)-[UIImageView:0x101a60980]   (active, names: '|':UITableViewCellContentView:0x101a5fd70 )>",\
+    "<NSLayoutConstraint:0x1c4097ed0 'UIView-Encapsulated-Layout-Height' UITableViewCellContentView:0x101a5fd70.height == 130   (active)>"\
+)\
+\
+Will attempt to recover by breaking constraint \
+<NSLayoutConstraint:0x1c4096580 UIImageView:0x101a60980.height == 100   (active)>\
+\
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.\
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.\
+2018-06-24 16:25:34.976665-0700 LivDay[2529:1402754] [LayoutConstraints] Unable to simultaneously satisfy constraints.\
+	Probably at least one of the constraints in the following list is one you don't want. \
+	Try this: \
+		(1) look at each constraint and try to figure out which you don't expect; \
+		(2) find the code that added the unwanted constraint or constraints and fix it. \
+(\
+    "<NSLayoutConstraint:0x1c02908b0 UIImageView:0x10189d470.height == 100   (active)>",\
+    "<NSLayoutConstraint:0x1c02916c0 V:[UIImageView:0x10189d470]-(15)-|   (active, names: '|':UITableViewCellContentView:0x10189d270 )>",\
+    "<NSLayoutConstraint:0x1c0291710 V:|-(15)-[UIImageView:0x10189d470]   (active, names: '|':UITableViewCellContentView:0x10189d270 )>",\
+    "<NSLayoutConstraint:0x1c40981a0 'UIView-Encapsulated-Layout-Height' UITableViewCellContentView:0x10189d270.height == 130   (active)>"\
+)\
+\
+Will attempt to recover by breaking constraint \
+<NSLayoutConstraint:0x1c02908b0 UIImageView:0x10189d470.height == 100   (active)>\
+\
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.\
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.\
+2018-06-24 16:25:34.978623-0700 LivDay[2529:1402754] [LayoutConstraints] Unable to simultaneously satisfy constraints.\
+	Probably at least one of the constraints in the following list is one you don't want. \
+	Try this: \
+		(1) look at each constraint and try to figure out which you don't expect; \
+		(2) find the code that added the unwanted constraint or constraints and fix it. \
+(\
+    "<NSLayoutConstraint:0x1c409b850 UIImageView:0x101a773b0.height == 100   (active)>",\
+    "<NSLayoutConstraint:0x1c0296d00 V:[UIImageView:0x101a773b0]-(15)-|   (active, names: '|':UITableViewCellContentView:0x101a78660 )>",\
+    "<NSLayoutConstraint:0x1c0296d50 V:|-(15)-[UIImageView:0x101a773b0]   (active, names: '|':UITableViewCellContentView:0x101a78660 )>",\
+    "<NSLayoutConstraint:0x1c0297bb0 'UIView-Encapsulated-Layout-Height' UITableViewCellContentView:0x101a78660.height == 130   (active)>"\
+)\
+\
+Will attempt to recover by breaking constraint \
+<NSLayoutConstraint:0x1c409b850 UIImageView:0x101a773b0.height == 100   (active)>\
+\
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.\
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.\
+2018-06-24 16:25:34.982464-0700 LivDay[2529:1402754] [LayoutConstraints] Unable to simultaneously satisfy constraints.\
+	Probably at least one of the constraints in the following list is one you don't want. \
+	Try this: \
+		(1) look at each constraint and try to figure out which you don't expect; \
+		(2) find the code that added the unwanted constraint or constraints and fix it. \
+(\
+    "<NSLayoutConstraint:0x1c409b850 UIImageView:0x101a773b0.height == 100   (active)>",\
+    "<NSLayoutConstraint:0x1c0296d00 V:[UIImageView:0x101a773b0]-(15)-|   (active, names: '|':UITableViewCellContentView:0x101a78660 )>",\
+    "<NSLayoutConstraint:0x1c0296d50 V:|-(15)-[UIImageView:0x101a773b0]   (active, names: '|':UITableViewCellContentView:0x101a78660 )>",\
+    "<NSLayoutConstraint:0x1c0297bb0 'UIView-Encapsulated-Layout-Height' UITableViewCellContentView:0x101a78660.height == 130   (active)>"\
+)\
+\
+Will attempt to recover by breaking constraint \
+<NSLayoutConstraint:0x1c409b850 UIImageView:0x101a773b0.height == 100   (active)>\
+\
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.\
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.\
+2018-06-24 16:25:34.985440-0700 LivDay[2529:1402754] [LayoutConstraints] Unable to simultaneously satisfy constraints.\
+	Probably at least one of the constraints in the following list is one you don't want. \
+	Try this: \
+		(1) look at each constraint and try to figure out which you don't expect; \
+		(2) find the code that added the unwanted constraint or constraints and fix it. \
+(\
+    "<NSLayoutConstraint:0x1c0295220 UIImageView:0x1018b4430.height == 100   (active)>",\
+    "<NSLayoutConstraint:0x1c0295e50 V:[UIImageView:0x1018b4430]-(15)-|   (active, names: '|':UITableViewCellContentView:0x1018b0de0 )>",\
+    "<NSLayoutConstraint:0x1c0295ea0 V:|-(15)-[UIImageView:0x1018b4430]   (active, names: '|':UITableViewCellContentView:0x1018b0de0 )>",\
+    "<NSLayoutConstraint:0x1c409b620 'UIView-Encapsulated-Layout-Height' UITableViewCellContentView:0x1018b0de0.height == 130   (active)>"\
+)\
+\
+Will attempt to recover by breaking constraint \
+<NSLayoutConstraint:0x1c0295220 UIImageView:0x1018b4430.height == 100   (active)>\
+\
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.\
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.\
+2018-06-24 16:25:34.988558-0700 LivDay[2529:1402754] [LayoutConstraints] Unable to simultaneously satisfy constraints.\
+	Probably at least one of the constraints in the following list is one you don't want. \
+	Try this: \
+		(1) look at each constraint and try to figure out which you don't expect; \
+		(2) find the code that added the unwanted constraint or constraints and fix it. \
+(\
+    "<NSLayoutConstraint:0x1c0295220 UIImageView:0x1018b4430.height == 100   (active)>",\
+    "<NSLayoutConstraint:0x1c0295e50 V:[UIImageView:0x1018b4430]-(15)-|   (active, names: '|':UITableViewCellContentView:0x1018b0de0 )>",\
+    "<NSLayoutConstraint:0x1c0295ea0 V:|-(15)-[UIImageView:0x1018b4430]   (active, names: '|':UITableViewCellContentView:0x1018b0de0 )>",\
+    "<NSLayoutConstraint:0x1c409b620 'UIView-Encapsulated-Layout-Height' UITableViewCellContentView:0x1018b0de0.height == 130   (active)>"\
+)\
+\
+Will attempt to recover by breaking constraint \
+<NSLayoutConstraint:0x1c0295220 UIImageView:0x1018b4430.height == 100   (active)>\
+\
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.\
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.\
+2018-06-24 16:25:34.990976-0700 LivDay[2529:1402754] [LayoutConstraints] Unable to simultaneously satisfy constraints.\
+	Probably at least one of the constraints in the following list is one you don't want. \
+	Try this: \
+		(1) look at each constraint and try to figure out which you don't expect; \
+		(2) find the code that added the unwanted constraint or constraints and fix it. \
+(\
+    "<NSLayoutConstraint:0x1c02930b0 UIImageView:0x1018aca30.height == 100   (active)>",\
+    "<NSLayoutConstraint:0x1c0294370 V:[UIImageView:0x1018aca30]-(15)-|   (active, names: '|':UITableViewCellContentView:0x1018ac830 )>",\
+    "<NSLayoutConstraint:0x1c02943c0 V:|-(15)-[UIImageView:0x1018aca30]   (active, names: '|':UITableViewCellContentView:0x1018ac830 )>",\
+    "<NSLayoutConstraint:0x1c0295040 'UIView-Encapsulated-Layout-Height' UITableViewCellContentView:0x1018ac830.height == 130   (active)>"\
+)\
+\
+Will attempt to recover by breaking constraint \
+<NSLayoutConstraint:0x1c02930b0 UIImageView:0x1018aca30.height == 100   (active)>\
+\
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.\
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.\
+2018-06-24 16:25:34.992399-0700 LivDay[2529:1402754] [LayoutConstraints] Unable to simultaneously satisfy constraints.\
+	Probably at least one of the constraints in the following list is one you don't want. \
+	Try this: \
+		(1) look at each constraint and try to figure out which you don't expect; \
+		(2) find the code that added the unwanted constraint or constraints and fix it. \
+(\
+    "<NSLayoutConstraint:0x1c02930b0 UIImageView:0x1018aca30.height == 100   (active)>",\
+    "<NSLayoutConstraint:0x1c0294370 V:[UIImageView:0x1018aca30]-(15)-|   (active, names: '|':UITableViewCellContentView:0x1018ac830 )>",\
+    "<NSLayoutConstraint:0x1c02943c0 V:|-(15)-[UIImageView:0x1018aca30]   (active, names: '|':UITableViewCellContentView:0x1018ac830 )>",\
+    "<NSLayoutConstraint:0x1c0295040 'UIView-Encapsulated-Layout-Height' UITableViewCellContentView:0x1018ac830.height == 130   (active)>"\
+)\
+\
+Will attempt to recover by breaking constraint \
+<NSLayoutConstraint:0x1c02930b0 UIImageView:0x1018aca30.height == 100   (active)>\
+\
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.\
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.\
+2018-06-24 16:25:34.994141-0700 LivDay[2529:1402754] [LayoutConstraints] Unable to simultaneously satisfy constraints.\
+	Probably at least one of the constraints in the following list is one you don't want. \
+	Try this: \
+		(1) look at each constraint and try to figure out which you don't expect; \
+		(2) find the code that added the unwanted constraint or constraints and fix it. \
+(\
+    "<NSLayoutConstraint:0x1c0292de0 UIImageView:0x1018a6ed0.height == 100   (active)>",\
+    "<NSLayoutConstraint:0x1c409a220 V:[UIImageView:0x1018a6ed0]-(15)-|   (active, names: '|':UITableViewCellContentView:0x1018a4cd0 )>",\
+    "<NSLayoutConstraint:0x1c409a270 V:|-(15)-[UIImageView:0x1018a6ed0]   (active, names: '|':UITableViewCellContentView:0x1018a4cd0 )>",\
+    "<NSLayoutConstraint:0x1c409a9f0 'UIView-Encapsulated-Layout-Height' UITableViewCellContentView:0x1018a4cd0.height == 130   (active)>"\
+)\
+\
+Will attempt to recover by breaking constraint \
+<NSLayoutConstraint:0x1c0292de0 UIImageView:0x1018a6ed0.height == 100   (active)>\
+\
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.\
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.\
+2018-06-24 16:25:34.996118-0700 LivDay[2529:1402754] [LayoutConstraints] Unable to simultaneously satisfy constraints.\
+	Probably at least one of the constraints in the following list is one you don't want. \
+	Try this: \
+		(1) look at each constraint and try to figure out which you don't expect; \
+		(2) find the code that added the unwanted constraint or constraints and fix it. \
+(\
+    "<NSLayoutConstraint:0x1c0292de0 UIImageView:0x1018a6ed0.height == 100   (active)>",\
+    "<NSLayoutConstraint:0x1c409a220 V:[UIImageView:0x1018a6ed0]-(15)-|   (active, names: '|':UITableViewCellContentView:0x1018a4cd0 )>",\
+    "<NSLayoutConstraint:0x1c409a270 V:|-(15)-[UIImageView:0x1018a6ed0]   (active, names: '|':UITableViewCellContentView:0x1018a4cd0 )>",\
+    "<NSLayoutConstraint:0x1c409a9f0 'UIView-Encapsulated-Layout-Height' UITableViewCellContentView:0x1018a4cd0.height == 130   (active)>"\
+)\
+\
+Will attempt to recover by breaking constraint \
+<NSLayoutConstraint:0x1c0292de0 UIImageView:0x1018a6ed0.height == 100   (active)>\
+\
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.\
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.\
+2018-06-24 16:25:34.998582-0700 LivDay[2529:1402754] [LayoutConstraints] Unable to simultaneously satisfy constraints.\
+	Probably at least one of the constraints in the following list is one you don't want. \
+	Try this: \
+		(1) look at each constraint and try to figure out which you don't expect; \
+		(2) find the code that added the unwanted constraint or constraints and fix it. \
+(\
+    "<NSLayoutConstraint:0x1c4098420 UIImageView:0x101a6b870.height == 100   (active)>",\
+    "<NSLayoutConstraint:0x1c4099230 V:[UIImageView:0x101a6b870]-(15)-|   (active, names: '|':UITableViewCellContentView:0x101a6b670 )>",\
+    "<NSLayoutConstraint:0x1c4099280 V:|-(15)-[UIImageView:0x101a6b870]   (active, names: '|':UITableViewCellContentView:0x101a6b670 )>",\
+    "<NSLayoutConstraint:0x1c0292b60 'UIView-Encapsulated-Layout-Height' UITableViewCellContentView:0x101a6b670.height == 130   (active)>"\
+)\
+\
+Will attempt to recover by breaking constraint \
+<NSLayoutConstraint:0x1c4098420 UIImageView:0x101a6b870.height == 100   (active)>\
+\
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.\
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.\
+2018-06-24 16:25:35.000550-0700 LivDay[2529:1402754] [LayoutConstraints] Unable to simultaneously satisfy constraints.\
+	Probably at least one of the constraints in the following list is one you don't want. \
+	Try this: \
+		(1) look at each constraint and try to figure out which you don't expect; \
+		(2) find the code that added the unwanted constraint or constraints and fix it. \
+(\
+    "<NSLayoutConstraint:0x1c4098420 UIImageView:0x101a6b870.height == 100   (active)>",\
+    "<NSLayoutConstraint:0x1c4099230 V:[UIImageView:0x101a6b870]-(15)-|   (active, names: '|':UITableViewCellContentView:0x101a6b670 )>",\
+    "<NSLayoutConstraint:0x1c4099280 V:|-(15)-[UIImageView:0x101a6b870]   (active, names: '|':UITableViewCellContentView:0x101a6b670 )>",\
+    "<NSLayoutConstraint:0x1c0292b60 'UIView-Encapsulated-Layout-Height' UITableViewCellContentView:0x101a6b670.height == 130   (active)>"\
+)\
+\
+Will attempt to recover by breaking constraint \
+<NSLayoutConstraint:0x1c4098420 UIImageView:0x101a6b870.height == 100   (active)>\
+\
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.\
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.\
+2018-06-24 16:25:35.044448-0700 LivDay[2529:1402754] [Assert] negative or zero item sizes are not supported in the flow layout\
+2018-06-24 16:25:35.044485-0700 LivDay[2529:1402754] [Assert] negative or zero item sizes are not supported in the flow layout\
+2018-06-24 16:25:35.044548-0700 LivDay[2529:1402754] [Assert] negative or zero item sizes are not supported in the flow layout\
+2018-06-24 16:25:35.044564-0700 LivDay[2529:1402754] [Assert] negative or zero item sizes are not supported in the flow layout\
+2018-06-24 16:25:35.044593-0700 LivDay[2529:1402754] [Assert] negative or zero item sizes are not supported in the flow layout\
+2018-06-24 16:25:35.044607-0700 LivDay[2529:1402754] [Assert] negative or zero item sizes are not supported in the flow layout\
+2018-06-24 16:25:35.044621-0700 LivDay[2529:1402754] [Assert] negative or zero item sizes are not supported in the flow layout\
+2018-06-24 16:25:35.044635-0700 LivDay[2529:1402754] [Assert] negative or zero item sizes are not supported in the flow layout\
+2018-06-24 16:25:35.044768-0700 LivDay[2529:1402754] [Assert] negative or zero item sizes are not supported in the flow layout\
+2018-06-24 16:25:35.044784-0700 LivDay[2529:1402754] [Assert] negative or zero item sizes are not supported in the flow layout\
+2018-06-24 16:25:36.919796-0700 LivDay[2529:1402946] VERBOSE: GoogleAnalytics 3.17 -[GAIBatchingDispatcher persist:] (GAIBatchingDispatcher.m:518): Saved hit: \{\
+    parameters =     \{\
+        "&_crc" = 0;\
+        "&_s" = 46;\
+        "&_u" = ".oK9L";\
+        "&_v" = "mi3.1.7";\
+        "&a" = 1951980859;\
+        "&aid" = "com.JohnPeterson.002";\
+        "&an" = livday;\
+        "&av" = "4.06";\
+        "&cd" = "Full day";\
+        "&cid" = "35843ae1-4246-4d84-ac90-548d9ee754f3";\
+        "&dm" = "iPhone9,4";\
+        "&ds" = app;\
+        "&sr" = 1080x1920;\
+        "&t" = screenview;\
+        "&tid" = "UA-31629363-3";\
+        "&ul" = "en-us";\
+        "&v" = 1;\
+        "&z" = 3934172607455022372;\
+        gaiVersion = "3.17";\
+    \};\
+    timestamp = "2018-06-24 23:25:36 +0000";\
+\}\
+2018-06-24 16:25:37.366402-0700 LivDay[2529:1402754] WARNING: GoogleAnalytics 3.17 void GAIUncaughtExceptionHandler(NSException *) (GAIUncaughtExceptionHandler.m:48): Uncaught exception: -[__NSCFString appendString:]: nil argument\
+2018-06-24 16:25:37.397922-0700 LivDay[2529:1402946] VERBOSE: GoogleAnalytics 3.17 -[GAIBatchingDispatcher persist:] (GAIBatchingDispatcher.m:518): Saved hit: \{\
+    parameters =     \{\
+        "&_crc" = 0;\
+        "&_s" = 47;\
+        "&_u" = ".o";\
+        "&_v" = "mi3.1.7";\
+        "&a" = 1951980859;\
+        "&aid" = "com.JohnPeterson.002";\
+        "&an" = livday;\
+        "&av" = "4.06";\
+        "&cd" = "Full day";\
+        "&cid" = "35843ae1-4246-4d84-ac90-548d9ee754f3";\
+        "&dm" = "iPhone9,4";\
+        "&ds" = app;\
+        "&exd" = "NSInvalidArgumentException\\nTrace:\\n<redacted>\\n<redacted>\\n-[LDDayInfoView nameInitials]\\n-[LDDayInfoView updateTableHeader]\\n-[LDDayInfoView didMoveToSupe";\
+        "&exf" = 1;\
+        "&sr" = 1080x1920;\
+        "&t" = exception;\
+        "&tid" = "UA-31629363-3";\
+        "&ul" = "en-us";\
+        "&v" = 1;\
+        "&z" = 3934172607455022373;\
+        gaiVersion = "3.17";\
+    \};\
+    timestamp = "2018-06-24 23:25:37 +0000";\
+\}\
+2018-06-24 16:25:37.402849-0700 LivDay[2529:1402946] VERBOSE: GoogleAnalytics 3.17 -[GAIRequestBuilder requestPostUrl:payload:compression:] (GAIRequestBuilder.m:167): building URLRequest for https://ssl.google-analytics.com/batch\
+2018-06-24 16:25:37.404525-0700 LivDay[2529:1402946] VERBOSE: GoogleAnalytics 3.17 -[GAIBatchingDispatcher dispatchWithCompletionHandler:] (GAIBatchingDispatcher.m:633): Sending hit(s) POST: https://ssl.google-analytics.com/batch\
+2018-06-24 16:25:37.410413-0700 LivDay[2529:1402754] invalid mode 'kCFRunLoopCommonModes' provided to CFRunLoopRunSpecific - break on _CFRunLoopError_RunCalledWithInvalidMode to debug. This message will only appear once per execution.\
+2018-06-24 16:25:42.381747-0700 LivDay[2529:1402754] *** Terminating app due to uncaught exception 'NSInvalidArgumentException', reason: '-[__NSCFString appendString:]: nil argument'\
+*** First throw call stack:\
+(0x18370ed8c 0x1828c85ec 0x18370ec6c 0x1836a5590 0x100fcac38 0x100fca76c 0x100fc9ff0 0x18d5e06d4 0x18405d500 0x18d2f5eb4 0x18d2f4dd4 0x100fe988c 0x100feb120 0x100ff5194 0x1836a0c3c 0x1836a01b8 0x18369ff14 0x18371d84c 0x1835d6f38 0x184047bbc 0x100fc71d8 0x100fe46bc 0x100fe8494 0x10101a18c 0x1017191dc 0x10171919c 0x10171dab4 0x1836b7070 0x1836b4bc8 0x1835d4da8 0x1855ba020 0x18d5f39cc 0x100fccbe0 0x183065fc0)\
+libc++abi.dylib: terminating with uncaught exception of type NSException\
+(lldb) }
