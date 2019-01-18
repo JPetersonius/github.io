@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><!-- generator="podbean/5.5" -->
+<rss version="2.0"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/"
+     xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:atom="http://www.w3.org/2005/Atom"
+     xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+     xmlns:spotify="http://www.spotify.com/ns/rss"
+>
+<meta expr:content='data:blog.postImageThumbnailUrl' property='og:image'/>
+
+<channel>
+    <title>The nudgetext's Podcast</title>
+    <atom:link href="https://nudgetext.podbean.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <link>https://nudgetext.podbean.com</link>    
+    <description>New podcast weblog</description>
+    <pubDate>Thu, 17 Jan 2019 21:13:34 -0800</pubDate>
+    <generator>https://podbean.com/?v=5.5</generator>
+    <language>en</language>
+        <copyright>Copyright 2019 All rights reserved.</copyright>
+    <category>Technology:Podcasting</category>
+    <ttl>1440</ttl>
+    <itunes:subtitle></itunes:subtitle>
+    <itunes:summary>New podcast weblog</itunes:summary>
+    <itunes:author>nudgetext</itunes:author>
+	<itunes:category text="Technology">
+		<itunes:category text="Podcasting"/>
+	</itunes:category>
+    <itunes:owner>
+        <itunes:name>nudgetext</itunes:name>
+        <itunes:email></itunes:email>
+    </itunes:owner>
+	<itunes:block>No</itunes:block>
+	<itunes:explicit>No</itunes:explicit>
+    <itunes:image href="https://djrpnl90t7dii.cloudfront.net/podbean-logo/powered_by_podbean.jpg" />
+    <image>
+        <url>https://djrpnl90t7dii.cloudfront.net/podbean-logo/powered_by_podbean.jpg</url>
+        <title>The nudgetext's Podcast</title>
+        <link>https://nudgetext.podbean.com</link>
+        <width>144</width>
+        <height>144</height>
+    </image>
+    <item>
+        <title>Socrates</title>
+        <link>https://nudgetext.podbean.com/e/socrates-1547788414/</link>
+        <comments>https://nudgetext.podbean.com/e/socrates-1547788414/#comments</comments>
+        <pubDate>Thu, 17 Jan 2019 21:13:34 -0800</pubDate>
+        <guid isPermaLink="false">nudgetext.podbean.com/socrates-1547788414-6a123c9d18971133b8008bc4b8356e34</guid>
+        <description><![CDATA[<p>This is a description of the episode.</p>]]></description>
+        <content:encoded><![CDATA[<p>This is a description of the episode.</p>]]></content:encoded>
+        <enclosure url="https://mcdn.podbean.com/mf/web/xhyvhm/Socrates_-_399_BC.mp3" length="11321506" type="audio/mpeg"/>
+        <itunes:subtitle>This is a description of the episode.</itunes:subtitle>
+        <itunes:summary>This is a description of the episode.</itunes:summary>
+        <itunes:author>nudgetext</itunes:author>
+        <itunes:explicit>No</itunes:explicit>
+        <itunes:block>No</itunes:block>
+        <itunes:duration>01:22</itunes:duration>
+        <itunes:season>1</itunes:season>
+        <itunes:episode>4</itunes:episode>
+        <itunes:episodeType>full</itunes:episodeType>
+            </item>
+</channel>
+</rss>
